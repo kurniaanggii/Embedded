@@ -1,0 +1,115 @@
+int led1m= 2;
+int led1k= 1;
+int led1h= 0;
+int led2m= 5;
+int led2k= 4;
+int led2h= 3;
+int led3m= 8;
+int led3k= 7;
+int led3h= 6;
+int led4m= 9;
+int led4k= 10;
+int led4h= 11;
+
+
+void setup()
+{
+  pinMode(led1m, OUTPUT);
+  pinMode(led1k, OUTPUT);
+  pinMode(led1h, OUTPUT);
+  
+  pinMode(led2m, OUTPUT);
+  pinMode(led2k, OUTPUT);
+  pinMode(led2h, OUTPUT);
+  
+  pinMode(led3m, OUTPUT);
+  pinMode(led3k, OUTPUT);
+  pinMode(led3h, OUTPUT);
+  
+  pinMode(led4m, OUTPUT);
+  pinMode(led4k, OUTPUT);
+  pinMode(led4h, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(led1h, HIGH);
+  digitalWrite(led2m, HIGH);
+  digitalWrite(led3m, HIGH);
+  digitalWrite(led4m, HIGH);
+  delay(5000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1h, LOW);
+  digitalWrite(led2m, LOW);
+  digitalWrite(led3m, LOW);
+  digitalWrite(led4m, LOW);
+  
+  digitalWrite(led1k, HIGH);
+  digitalWrite(led2m, HIGH);
+  digitalWrite(led3m, HIGH);
+  digitalWrite(led4m, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1k, LOW);
+  digitalWrite(led2m, LOW);
+  digitalWrite(led3m, LOW);
+  digitalWrite(led4m, LOW);
+  
+  digitalWrite(led1m, HIGH);
+  digitalWrite(led2h, HIGH);
+  digitalWrite(led3m, HIGH);
+  digitalWrite(led4m, HIGH);
+  delay(5000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1m, LOW);
+  digitalWrite(led2h, LOW);
+  digitalWrite(led3m, LOW);
+  digitalWrite(led4m, LOW);
+  
+  digitalWrite(led1m, HIGH);
+  digitalWrite(led2k, HIGH);
+  digitalWrite(led3m, HIGH);
+  digitalWrite(led4m, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1m, LOW);
+  digitalWrite(led2k, LOW);
+  digitalWrite(led3m, LOW);
+  digitalWrite(led4m, LOW);
+  
+  digitalWrite(led1m, HIGH);
+  digitalWrite(led2m, HIGH);
+  digitalWrite(led3h, HIGH);
+  digitalWrite(led4m, HIGH);
+  delay(5000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1m, LOW);
+  digitalWrite(led2m, LOW);
+  digitalWrite(led3h, LOW);
+  digitalWrite(led4m, LOW);
+  
+  digitalWrite(led1m, HIGH);
+  digitalWrite(led2m, HIGH);
+  digitalWrite(led3k, HIGH);
+  digitalWrite(led4m, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1m, LOW);
+  digitalWrite(led2m, LOW);
+  digitalWrite(led3k, LOW);
+  digitalWrite(led4m, LOW);
+  
+  digitalWrite(led1m, HIGH);
+  digitalWrite(led2m, HIGH);
+  digitalWrite(led3m, HIGH);
+  digitalWrite(led4h, HIGH);
+  delay(5000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1h, LOW);
+  digitalWrite(led2m, LOW);
+  digitalWrite(led3m, LOW);
+  digitalWrite(led4h, LOW);
+  
+  digitalWrite(led1m, HIGH);
+  digitalWrite(led2m, HIGH);
+  digitalWrite(led3m, HIGH);
+  digitalWrite(led4k, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(led1m, LOW);
+  digitalWrite(led2m, LOW);
+  digitalWrite(led3m, LOW);
+  digitalWrite(led4k, LOW);
+}
